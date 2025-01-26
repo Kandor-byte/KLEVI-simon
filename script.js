@@ -658,6 +658,31 @@ contactbut.addEventListener('click', () => {
 
 });
 
+        // Function to handle form submission
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get form field values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Construct the mailto URL
+            const mailtoLink = `mailto:shuxhop3@proton.me?subject=Contact Form Submission from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+
+            // Open the mailto link
+            window.location.href = mailtoLink;
+        }
+
+        // Function to dynamically set the onsubmit attribute
+        function setOnSubmitAttribute() {
+            const form = document.getElementById('contactForm');
+            form.onsubmit = handleFormSubmit;
+        }
+
+        // Ensure the onsubmit attribute is set after the DOM loads
+        window.onload = setOnSubmitAttribute;
+
 };
 
 /*--------------------------- CONTACT DONE ---------------------------------*/
