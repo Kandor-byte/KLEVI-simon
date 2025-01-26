@@ -533,6 +533,8 @@ contactdiv.id = "contact";
 
 const form = document.createElement("form");
 form.id = "contactForm";
+form.setAttribute('method', 'POST');
+form.action = "https://formsubmit.co/shuxhop3@proton.me";
 
 const nameGroup = document.createElement("div");
 nameGroup.classList.add("form-group");
@@ -611,16 +613,6 @@ contactbut.addEventListener('click', () => {
                  homecontact.remove();
                 }, 801);
 });
-
-
-    //     productimgdivscont.forEach((item, index) => {
-    //           setTimeout(() => {
-    //         item.style.opacity = "0";
-    //           }, index * 100);
-    //           setTimeout(() => {
-    //         productDivscont.remove();
-    //     }, 1000);
-    // });
 
              homeheadcontact.style.opacity = "0";
       homeheadcontact.style.transform = 'translateX(+20%)';
