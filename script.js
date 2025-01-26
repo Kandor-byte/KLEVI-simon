@@ -534,14 +534,14 @@ contactdiv.id = "contact";
 const form = document.createElement("form");
 form.id = "contactForm";
  form.setAttribute('method', 'POST');
- form.setAttribute('onsubmit', 'sendMail(); return false;');
-// form.action = "https://formsubmit.co/c85aedc186ea5713e38833e7a514ed16";
+ // form.setAttribute('onsubmit', 'sendMail(); return false;');
+ form.action = "https://formsubmit.co/c85aedc186ea5713e38833e7a514ed16";
 
 const nameGroup = document.createElement("div");
 nameGroup.classList.add("form-group");
 
 const nameLabel = document.createElement('label');
-nameLabel.setAttribute('for', 'name');
+nameLabel.setAttribute('name', 'name');
 nameLabel.textContent = 'Name:';
 nameGroup.appendChild(nameLabel);
 
@@ -557,7 +557,7 @@ const emailGroup = document.createElement('div');
 emailGroup.className = 'form-group';
 
 const emailLabel = document.createElement('label');
-emailLabel.setAttribute('for', 'email');
+emailLabel.setAttribute('name', 'email');
 emailLabel.textContent = 'Email:';
 emailGroup.appendChild(emailLabel);
 
@@ -573,7 +573,7 @@ const messageGroup = document.createElement('div');
 messageGroup.className = 'form-group';
 
 const messageLabel = document.createElement('label');
-messageLabel.setAttribute('for', 'message');
+messageLabel.setAttribute('name', 'message');
 messageLabel.textContent = 'Message:';
 messageGroup.appendChild(messageLabel);
 
@@ -659,44 +659,44 @@ contactbut.addEventListener('click', () => {
 
 });
 
-        // // Function to handle form submission
-        // function handleFormSubmit(event) {
-        //     event.preventDefault(); // Prevent default form submission
-        //
-        //     // Get form field values
-        //     const name = document.getElementById('name').value;
-        //     const email = document.getElementById('email').value;
-        //     const message = document.getElementById('message').value;
-        //
-        //     // Construct the mailto URL
-        //     const mailtoLink = `mailto:shuxhop3@proton.me?subject=Contact Form Submission from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-        //
-        //     // Open the mailto link
-        //     window.location.href = mailtoLink;
-        // }
-        //
-        // // Function to dynamically set the onsubmit attribute
-        // function setOnSubmitAttribute() {
-        //     const form = document.getElementById('contactForm');
-        //     form.onsubmit = handleFormSubmit;
-        // }
-        //
-        // // Ensure the onsubmit attribute is set after the DOM loads
-        // window.onload = setOnSubmitAttribute;
+        // Function to handle form submission
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get form field values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Construct the mailto URL
+            const mailtoLink = `mailto:shuxhop3@proton.me?subject=Contact Form Submission from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+
+            // Open the mailto link
+            window.location.href = mailtoLink;
+        }
+
+        // Function to dynamically set the onsubmit attribute
+        function setOnSubmitAttribute() {
+            const form = document.getElementById('contactForm');
+            form.onsubmit = handleFormSubmit;
+        }
+
+        // Ensure the onsubmit attribute is set after the DOM loads
+        window.onload = setOnSubmitAttribute;
 
 };
 
 /*--------------------------- CONTACT DONE ---------------------------------*/
 
-   function sendMail() {
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-            var link = "mailto:shuxhop3@proton.me"
-                     + "?subject=" + encodeURIComponent("Contact Form Submission from " + name)
-                     + "&body=" + encodeURIComponent("Email: " + email + "\n\nMessage:\n" + message);
-            window.location.href = link;
-        }
+   // function sendMail() {
+   //          var name = document.getElementById('name').value;
+   //          var email = document.getElementById('email').value;
+   //          var message = document.getElementById('message').value;
+   //          var link = "mailto:shuxhop3@proton.me"
+   //                   + "?subject=" + encodeURIComponent("Contact Form Submission from " + name)
+   //                   + "&body=" + encodeURIComponent("Email: " + email + "\n\nMessage:\n" + message);
+   //          window.location.href = link;
+   //      }
 
 function formanim(elem){
           elem.forEach((item, index) => {
