@@ -533,8 +533,8 @@ contactdiv.id = "contact";
 
 const form = document.createElement("form");
 form.id = "contactForm";
-form.setAttribute('method', 'POST');
-form.action = "https://formsubmit.co/c85aedc186ea5713e38833e7a514ed16";
+// form.setAttribute('method', 'POST');
+// form.action = "https://formsubmit.co/c85aedc186ea5713e38833e7a514ed16";
 
 const nameGroup = document.createElement("div");
 nameGroup.classList.add("form-group");
