@@ -548,7 +548,8 @@ nameGroup.appendChild(nameLabel);
 const nameInput = document.createElement('input');
 nameInput.type = 'text';
 nameInput.id = 'name';
-nameLabel.setAttribute('name', 'name');
+// nameLabel.setAttribute('name', 'name');
+nameInput.name = "name";
 nameInput.required = true;
 nameGroup.appendChild(nameInput);
 
@@ -565,7 +566,8 @@ emailGroup.appendChild(emailLabel);
 const emailInput = document.createElement('input');
 emailInput.type = 'email';
 emailInput.id = 'email';
-emailLabel.setAttribute('name', 'email');
+// emailLabel.setAttribute('name', 'email');
+emailInput.name = "email";
 emailInput.required = true;
 emailGroup.appendChild(emailInput);
 
@@ -581,7 +583,8 @@ messageGroup.appendChild(messageLabel);
 
 const messageTextarea = document.createElement('textarea');
 messageTextarea.id = 'message';
-messageLabel.setAttribute('name', 'message');
+// messageLabel.setAttribute('name', 'message');
+messageTextarea.name = "message";
 messageTextarea.rows = 4;
 messageTextarea.required = true;
 messageGroup.appendChild(messageTextarea);
