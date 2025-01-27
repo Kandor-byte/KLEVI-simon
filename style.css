@@ -40,6 +40,36 @@ p {
 
 
 
+#K {
+position: relative;
+font-size: 40px;
+color: #bbb;
+   text-shadow: 0 0 0px #fff;
+    transition: color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
+}
+
+#K:hover {
+ color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+}
+
+#L {
+position: relative;
+font-size: 35px;
+left: -18px;
+bottom: -8px;
+color: #bbb;
+   text-shadow: 0 0 0px #fff;
+    transition: color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out;
+}
+
+#L:hover {
+     color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+}
+
 #nav-cont {
     opacity: 1;
     position: sticky;
@@ -56,8 +86,8 @@ p {
     background-color: #181818;
     width: 60%;
     display: flex; /* Enable Flexbox */
-    justify-content: space-between; /* Space between logo and links */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    align-items: center;
     padding: 40px; /* Padding around the navbar */
     transition: padding 0.5s ease-in-out;
 }
@@ -69,7 +99,8 @@ p {
 }
 
 .nav-links {
-    display: flex; /* Enable Flexbox for nav links */
+    display: flex;
+
 }
 
 .nav-links a {
