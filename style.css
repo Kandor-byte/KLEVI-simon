@@ -83,8 +83,7 @@ p {
 }
 
 .nav-links a:hover {
-    color: #fff; /* Change color on hover */
-/*     text-shadow:0 0 10px #fff; */
+    color: #fff;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 }
 
@@ -239,7 +238,7 @@ justify-content: center;
 width: 100%;
 border: 2px solid rgba(170, 170, 170, 0);
 border-radius: 0px;
-padding: 50px;
+padding: 10px;
 transition: all 0.5s ease-in-out;
 }
 
@@ -274,6 +273,7 @@ transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out, opacity 0.5s e
 border: 2px solid rgba(255, 255, 255, 1);
 box-shadow: inset 0 0 5px #fff, 0 0 10px #fff;
 transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out, opacity 0.5s ease-in-out;
+width: 100%;
 }
 
 #message {
@@ -313,4 +313,34 @@ transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out, opacity 0.5s e
  background-color: #AAAAAA;
  color: #181818;
     transform: scale(1.05);
+}
+
+#facebook {
+ color: #bbb;
+ align-self: self-end;
+ margin: 10px;
+ cursor: pointer;
+  text-shadow: 0 0 0px #fff;
+    transition: color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out,
+    opacity 0.5s ease-in-out;
+}
+
+#facebook:hover {
+ color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+}
+
+#facebooklink {
+text-decoration: none;
+ color: #bbb;
+   text-shadow: 0 0 0px #fff;
+    transition: color 0.3s ease-in-out,
+    text-shadow 0.3s ease-in-out,
+    opacity 0.5s ease-in-out;
+}
+
+#facebooklink:hover {
+ color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 }

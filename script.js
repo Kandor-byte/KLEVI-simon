@@ -531,6 +531,20 @@ const homeheadcontact = document.querySelector("#homehead");
 const contactdiv = document.createElement("div");
 contactdiv.id = "contact";
 
+const facebk = document.createElement("h2");
+facebk.id = "facebook";
+facebk.classList.add("form-group");
+facebk.textContent = 'Facebook';
+contactdiv.appendChild(facebk);
+
+// const facebkid = document.getElementById("facebook");
+// const facebklink = document.createElement("a");
+// facebklink.href = 'https://www.facebook.com/kopaczlevente';
+// facebklink.target = '_blank';
+// facebklink.textContent = facebkid.textContent;
+// facebkid.textContent = '';
+// facebkid.appendChild(facebklink);
+
 const form = document.createElement("form");
 form.id = "contactForm";
  form.setAttribute('method', 'POST');
@@ -551,6 +565,7 @@ nameInput.id = 'name';
 // nameLabel.setAttribute('name', 'name');
 nameInput.name = "name";
 nameInput.required = true;
+nameInput.style.width = "400px";
 nameGroup.appendChild(nameInput);
 
 form.appendChild(nameGroup);
@@ -560,7 +575,7 @@ emailGroup.className = 'form-group';
 
 const emailLabel = document.createElement('label');
 // emailLabel.setAttribute('name', 'email');
-emailLabel.textContent = 'Email:';
+emailLabel.textContent = 'email:';
 emailGroup.appendChild(emailLabel);
 
 const emailInput = document.createElement('input');
@@ -569,6 +584,7 @@ emailInput.id = 'email';
 // emailLabel.setAttribute('name', 'email');
 emailInput.name = "email";
 emailInput.required = true;
+emailInput.style.width = "400px";
 emailGroup.appendChild(emailInput);
 
 form.appendChild(emailGroup);
@@ -587,6 +603,8 @@ messageTextarea.id = 'message';
 messageTextarea.name = "message";
 messageTextarea.rows = 4;
 messageTextarea.required = true;
+messageTextarea.style.width = "400px";
+messageTextarea.style.height = "200px";
 messageGroup.appendChild(messageTextarea);
 
 form.appendChild(messageGroup);
@@ -649,7 +667,19 @@ contactbut.addEventListener('click', () => {
 
     const formval = document.querySelectorAll(".form-group");
      formanim(formval);
+
+     const facebkid = document.getElementById("facebook");
+const facebklink = document.createElement("a");
+facebklink.id = "facebooklink";
+facebklink.href = 'https://www.facebook.com/kopaczlevente';
+facebklink.target = '_blank';
+facebklink.textContent = facebkid.textContent;
+facebkid.textContent = '';
+     facebkid.appendChild(facebklink);
+
         }, 1001);
+
+
     } else if(!productDivscont || !homecontact){
 
          setTimeout(() => {
@@ -660,49 +690,24 @@ contactbut.addEventListener('click', () => {
 
     const formval = document.querySelectorAll(".form-group");
      formanim(formval);
+
+     const facebkid = document.getElementById("facebook");
+const facebklink = document.createElement("a");
+facebklink.id = "facebooklink";
+facebklink.href = 'https://www.facebook.com/kopaczlevente';
+facebklink.target = '_blank';
+facebklink.textContent = facebkid.textContent;
+facebkid.textContent = '';
+     facebkid.appendChild(facebklink);
+
         }, 1);
     }
 
 });
 
-        // Function to handle form submission
-        function handleFormSubmit(event) {
-            event.preventDefault(); // Prevent default form submission
-
-            // Get form field values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            // Construct the mailto URL
-            const mailtoLink = `mailto:shuxhop3@proton.me?subject=Contact Form Submission from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-
-            // Open the mailto link
-            window.location.href = mailtoLink;
-        }
-
-        // Function to dynamically set the onsubmit attribute
-        function setOnSubmitAttribute() {
-            const form = document.getElementById('contactForm');
-            form.onsubmit = handleFormSubmit;
-        }
-
-        // Ensure the onsubmit attribute is set after the DOM loads
-        window.onload = setOnSubmitAttribute;
-
 };
 
 /*--------------------------- CONTACT DONE ---------------------------------*/
-
-   // function sendMail() {
-   //          var name = document.getElementById('name').value;
-   //          var email = document.getElementById('email').value;
-   //          var message = document.getElementById('message').value;
-   //          var link = "mailto:shuxhop3@proton.me"
-   //                   + "?subject=" + encodeURIComponent("Contact Form Submission from " + name)
-   //                   + "&body=" + encodeURIComponent("Email: " + email + "\n\nMessage:\n" + message);
-   //          window.location.href = link;
-   //      }
 
 function formanim(elem){
           elem.forEach((item, index) => {
