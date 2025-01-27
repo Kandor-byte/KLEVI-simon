@@ -83,7 +83,8 @@ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 }
 
 .navbar {
-    background-color: #181818;
+/*     background-color: #181818; */
+    background: linear-gradient(to top, rgba(24, 24, 24, 0), rgba(24, 24, 24, 1));
     width: 60%;
     display: flex; /* Enable Flexbox */
     justify-content: space-between;
@@ -374,4 +375,26 @@ text-decoration: none;
 #facebooklink:hover {
  color: #fff;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+}
+
+@media (max-width: 1295px) {
+#homehead {
+    font-size: 40px;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+.nav-links a {
+font-size: 18px;
+}
+
+#K {
+    font-size: 30px;
+}
+
+#L {
+    font-size: 25px;
+    left: -15px;
+bottom: -5px;
+}
 }
