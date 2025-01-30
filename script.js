@@ -552,14 +552,6 @@ facebk.classList.add("form-group");
 facebk.textContent = 'Facebook';
 contactdiv.appendChild(facebk);
 
-// const facebkid = document.getElementById("facebook");
-// const facebklink = document.createElement("a");
-// facebklink.href = 'https://www.facebook.com/kopaczlevente';
-// facebklink.target = '_blank';
-// facebklink.textContent = facebkid.textContent;
-// facebkid.textContent = '';
-// facebkid.appendChild(facebklink);
-
 const form = document.createElement("form");
 form.id = "contactForm";
  form.setAttribute('method', 'POST');
@@ -572,6 +564,11 @@ nameGroup.classList.add("form-group");
 const nameLabel = document.createElement('label');
 // nameLabel.setAttribute('name', 'name');
 nameLabel.textContent = 'Name:';
+
+if(window.innerWidth <= 710){
+nameLabel.style.fontSize = "14px";
+}
+
 nameGroup.appendChild(nameLabel);
 
 const nameInput = document.createElement('input');
@@ -581,6 +578,16 @@ nameInput.id = 'name';
 nameInput.name = "name";
 nameInput.required = true;
 nameInput.style.width = "400px";
+
+if(window.innerWidth <= 1024){
+nameInput.style.width = "300px";
+}
+
+if(window.innerWidth <= 710){
+nameInput.style.width = "200px";
+}
+
+
 nameGroup.appendChild(nameInput);
 
 form.appendChild(nameGroup);
@@ -591,6 +598,11 @@ emailGroup.className = 'form-group';
 const emailLabel = document.createElement('label');
 // emailLabel.setAttribute('name', 'email');
 emailLabel.textContent = 'email:';
+
+if(window.innerWidth <= 710){
+emailLabel.style.fontSize = "14px";
+}
+
 emailGroup.appendChild(emailLabel);
 
 const emailInput = document.createElement('input');
@@ -600,6 +612,16 @@ emailInput.id = 'email';
 emailInput.name = "email";
 emailInput.required = true;
 emailInput.style.width = "400px";
+
+if(window.innerWidth <= 1024){
+emailInput.style.width = "300px";
+}
+
+
+if(window.innerWidth <= 710){
+emailInput.style.width = "200px";
+}
+
 emailGroup.appendChild(emailInput);
 
 form.appendChild(emailGroup);
@@ -610,6 +632,11 @@ messageGroup.className = 'form-group';
 const messageLabel = document.createElement('label');
 // messageLabel.setAttribute('name', 'message');
 messageLabel.textContent = 'Message:';
+
+if(window.innerWidth <= 710){
+messageLabel.style.fontSize = "14px";
+}
+
 messageGroup.appendChild(messageLabel);
 
 const messageTextarea = document.createElement('textarea');
@@ -620,6 +647,16 @@ messageTextarea.rows = 4;
 messageTextarea.required = true;
 messageTextarea.style.width = "400px";
 messageTextarea.style.height = "200px";
+
+if(window.innerWidth <= 1024){
+messageTextarea.style.width = "300px";
+}
+
+if(window.innerWidth <= 710){
+messageTextarea.style.width = "200px";
+messageTextarea.style.fontSize = "14px";
+}
+
 messageGroup.appendChild(messageTextarea);
 
 form.appendChild(messageGroup);

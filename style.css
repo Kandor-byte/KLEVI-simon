@@ -478,12 +478,27 @@ height: 4px;
     flex-direction: column;
 }
 
+#facebook {
+font-size: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+
+
 }
 
 @media only screen and (max-width: 710px) {
 
+body {
+    padding: 10px;
+}
+
 .container {
 max-width: 100%;
+padding: 0px;
 }
 
 #homehead {
@@ -492,6 +507,37 @@ font-size: 20px;
 
 .land {
 font-size: 14px;
+}
+
+.thumbnail {
+    margin: 10px;
+    padding: 0px;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 1))
+     saturate(100%);
+     opacity: 1;
+}
+
+.prodimg {
+ filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 1))
+     saturate(100%);
+     opacity: 1;
+}
+
+#contactForm {
+padding: 0px;
+}
+
+.form-group {
+font-size: 14px;
+}
+
+.form-group input {
+font-size: 14px;
+}
+
+#senbut {
+    font-size: 14px;
+        padding: 10px 15px;
 }
 
 }
