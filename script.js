@@ -4,7 +4,11 @@ home();
 productson();
 contact();
 sticky();
+// window.addEventListener('resize', switchElem);
+// window.addEventListener('resize', hamburger);
 
+  switchElem();
+hamburger();
 
 });
 
@@ -18,6 +22,8 @@ document.addEventListener('contextmenu', function(e) {
 /*------------------------------ HOME START ----------------------------------*/
 
 function home() {
+
+// window.addEventListener('resize', switchElem);
 
 const contain = document.querySelector(".container");
 
@@ -43,7 +49,9 @@ function landVar(value1, value2, value3, value4){
         }, 300);
 
           value2.classList.add("land");
+           value2.id = "landsw";
           value4.classList.add("land_p_div");
+           value4.id = "paragr2";
         setTimeout(() => {
             value2.style.opacity = "1";
               value2.style.transform = 'translateX(0%)';
@@ -55,8 +63,11 @@ function landVar(value1, value2, value3, value4){
 
 landVar(land, land2, landp, landp2);
 
-const para = document.createElement("p");
-para.innerText = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.";
+const para = document.createElement("div");
+// para.classList.add("land_p_div");
+ para.id = "paragr";
+
+para.innerHTML = "Discover the art and soul of clay with over <strong>40 years of professional experience</strong> in the craft. Our website is your gateway to exploring exquisite handmade pottery, where tradition meets innovation.";
 // para.style.opacity = "1";
 
 
@@ -70,13 +81,16 @@ landimage.setAttribute('data-large', './Vazak/75044642_2470026609719852_72374280
 
 let landimage2 = document.createElement("img");
 landimage2.className = "thumbnail";
+ landimage2.id = "landimg2";
 landimage2.src = "./Thumbs/land_thumb2.jpg";
 landimage2.setAttribute('alt', 'Beautiful_Ceramic');
 landimage2.setAttribute('data-large', './Vazak/75456910_2470032499719263_1282600470082224128_n.jpg');
 // landimage.style.opacity = "1";
 
-const para2 = document.createElement("p");
-para2.innerText = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.";
+const para2 = document.createElement("div");
+ // para2.id = "paragr2";
+// para2.classList.add("land_p_div");
+para2.innerHTML = "Whether you're a seasoned artist, an aspiring potter, or simply a lover of beautiful ceramics, we invite you to delve into our collection, workshops, and stories. Let's shape beauty together!";
 // para.style.opacity = "1";
 
 landp.appendChild(para);
@@ -88,6 +102,7 @@ land2.appendChild(landp2);
 landing.appendChild(land);
 landing.appendChild(land2);
 contain.appendChild(landing);
+
 
 const homebutton = document.querySelector("#home");
 
@@ -716,4 +731,120 @@ function formanim(elem){
             item.style.opacity = "1";
               }, (index + 1) * 500);
     });
+};
+
+function switchElem() {
+    const landsw2 = document.querySelector("#landsw");
+const landimg2 = document.querySelector("#landimg2");
+const landparagr2 = document.querySelector("#paragr2");
+
+    if (window.innerWidth <= 1024) {
+        // Switch places of element1 and element2
+        landsw2.insertBefore(landparagr2, landimg2);
+
+
+    } else {
+        // Revert back to original order if width is greater than 1024
+        landsw2.insertBefore(landimg2, landparagr2);
+    }
+};
+
+function hamburger() {
+
+     if (window.innerWidth <= 1024) {
+
+
+
+    const swnavbar = document.querySelector(".navbar");
+    const swnavlinks = document.querySelector(".nav-links");
+    const swnavlinkschild = swnavlinks.querySelectorAll("*");
+
+     swnavlinkschild.forEach((item, index) => {
+              setTimeout(() => {
+            item.style.opacity = "0";
+              }, index * 300);
+              setTimeout(() => {
+                  swnavlinks.style.display = "none";
+            }, index * 301);
+     });
+
+    const hamburg = document.createElement("div");
+hamburg.id = "hamburg";
+const bar1 = document.createElement("div");
+bar1.classList.add("bar");
+const bar2 = document.createElement("div");
+bar2.classList.add("bar");
+const bar3 = document.createElement("div");
+bar3.classList.add("bar");
+hamburg.appendChild(bar1);
+hamburg.appendChild(bar2);
+hamburg.appendChild(bar3);
+
+const topbar = hamburg.children[0];
+    const midbar = hamburg.children[1];
+    const botbar = hamburg.children[2];
+
+ if (!swnavbar.querySelector("#hamburg")) {
+  swnavbar.insertBefore(hamburg, swnavlinks);
+ }
+
+hamburg.addEventListener('click', () => {
+
+    if(swnavlinks.style.display === "none" || swnavlinks.style.display === ""){
+
+           topbar.style.transform = 'rotate(45deg) translate(5px, 5px)';
+    midbar.style.opacity = '0';
+    botbar.style.transform = 'rotate(-45deg) translate(5px, -5px)';
+
+swnavlinks.style.display = "flex";
+swnavlinks.style.flexDirection = 'column';
+
+setTimeout(() => {
+ swnavlinks.style.maxHeight = "200px";
+}, 1);
+
+swnavlinkschild.forEach((item, index) => {
+              setTimeout(() => {
+            item.style.opacity = "1";
+              }, index * 300);
+});
+
+
+
+    } else {
+
+           topbar.style.transform = 'rotate(0deg) translate(0px, 0px)';
+    midbar.style.opacity = '1';
+    botbar.style.transform = 'rotate(0deg) translate(0px, 0px)';
+
+         swnavlinks.style.maxHeight = "0";
+
+        swnavlinkschild.forEach((item, index) => {
+              setTimeout(() => {
+            item.style.opacity = "0";
+              }, index * 300);
+        });
+
+              setTimeout(() => {
+        swnavlinks.style.display = "none";
+              }, 901);
+    }
+});
+
+  if (!swnavbar.querySelector("#hamburg")) {
+swnavbar.appendChild(hamburg);
+     }
+
+     } else  if (window.innerWidth >= 1024) {
+
+                 swnavlinks.style.display = "flex";
+         swnavlinks.style.flexDirection = 'row';
+
+            swnavlinkschild.forEach((item, index) => {
+              setTimeout(() => {
+            item.style.opacity = "1";
+              }, index * 300);
+ });
+         swnavbar.removeChild(hamburg);
+    }
 };
