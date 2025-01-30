@@ -479,3 +479,19 @@ height: 4px;
 }
 
 }
+
+@media only screen and (max-width: 710px) {
+
+.container {
+max-width: 100%;
+}
+
+#homehead {
+font-size: 20px;
+}
+
+.land {
+font-size: 14px;
+}
+
+}
