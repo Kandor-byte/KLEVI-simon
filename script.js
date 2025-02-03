@@ -705,7 +705,7 @@ const productimg16 = document.createElement("img");
 productimg16.classList.add("prodimg");
 productimg16.src = "./Thumbs/prod_thumb16.jpg";
 productimg16.setAttribute('alt', 'Beautiful_Ceramic');
-productimg16.setAttribute('data-large', './Vazak/76608815_2470029976386182_101488848843833344_n.jpg');
+productimg16.setAttribute('data-large', './Vazak/76651506_2470028606386319_6935890515342655488_n.jpg');
 
 const productimg17 = document.createElement("img");
 productimg17.classList.add("prodimg");
