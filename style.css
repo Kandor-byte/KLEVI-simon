@@ -233,8 +233,8 @@ align-items: center;
      filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7))
      saturate(50%);
      opacity: 0.5;
-     transition: opacity 0.3s ease-in-out,
-     saturate 0.3s ease-in-out;
+     transition: opacity 0.2s ease-in-out,
+     saturate 0.2s ease-in-out;
 }
 
 .prodimg:hover {
@@ -242,8 +242,8 @@ align-items: center;
      filter: saturate(100%)
      drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7));
      cursor: pointer;
-      transition: opacity 0.3s ease-in-out,
-     saturate 0.3s ease-in-out;
+      transition: opacity 0.2s ease-in-out,
+     saturate 0.2s ease-in-out;
 }
 
 .prodpara {
@@ -251,7 +251,7 @@ align-items: center;
      opacity: 0;
  line-height: 1.6; /* Improve readability */
     color: #AAAAAA;
-        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 #contact {
