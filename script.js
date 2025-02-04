@@ -307,307 +307,308 @@ productdiv.id = "productdiv";
 
 
 
-const productimgdiv1 = document.createElement("div");
-productimgdiv1.classList.add("prodimgdiv");
-const productpara1 = document.createElement("p");
-productpara1.innerText = "€1000";
-productpara1.classList.add("prodpara");
+// const productimgdiv1 = document.createElement("div");
+// productimgdiv1.classList.add("prodimgdiv");
+// const productpara1 = document.createElement("p");
+// productpara1.innerText = "€1000";
+// productpara1.classList.add("prodpara");
+//
+// const productimgdiv2 = document.createElement("div");
+// productimgdiv2.classList.add("prodimgdiv");
+// const productpara2 = document.createElement("p");
+// productpara2.innerText = "€1000";
+// productpara2.classList.add("prodpara");
+//
+// const productimgdiv3 = document.createElement("div");
+// productimgdiv3.classList.add("prodimgdiv");
+// const productpara3 = document.createElement("p");
+// productpara3.innerText = "€1000";
+// productpara3.classList.add("prodpara");
+//
+// const productimgdiv4 = document.createElement("div");
+// productimgdiv4.classList.add("prodimgdiv");
+// const productpara4 = document.createElement("p");
+// productpara4.innerText = "€1000";
+// productpara4.classList.add("prodpara");
+//
+// const productimgdiv5 = document.createElement("div");
+// productimgdiv5.classList.add("prodimgdiv");
+// const productpara5 = document.createElement("p");
+// productpara5.innerText = "€1000";
+// productpara5.classList.add("prodpara");
+//
+// const productimgdiv6 = document.createElement("div");
+// productimgdiv6.classList.add("prodimgdiv");
+// const productpara6 = document.createElement("p");
+// productpara6.innerText = "€1000";
+// productpara6.classList.add("prodpara");
+//
+// const productimgdiv7 = document.createElement("div");
+// productimgdiv7.classList.add("prodimgdiv");
+// const productpara7 = document.createElement("p");
+// productpara7.innerText = "€1000";
+// productpara7.classList.add("prodpara");
+//
+// const productimgdiv8 = document.createElement("div");
+// productimgdiv8.classList.add("prodimgdiv");
+// const productpara8 = document.createElement("p");
+// productpara8.innerText = "€1000";
+// productpara8.classList.add("prodpara");
+//
+// const productimgdiv9 = document.createElement("div");
+// productimgdiv9.classList.add("prodimgdiv");
+// const productpara9 = document.createElement("p");
+// productpara9.innerText = "€1000";
+// productpara9.classList.add("prodpara");
+//
+// const productimgdiv10 = document.createElement("div");
+// productimgdiv10.classList.add("prodimgdiv");
+// const productpara10 = document.createElement("p");
+// productpara10.innerText = "€1000";
+// productpara10.classList.add("prodpara");
+//
+// const productimgdiv11 = document.createElement("div");
+// productimgdiv11.classList.add("prodimgdiv");
+// const productpara11 = document.createElement("p");
+// productpara11.innerText = "€1000";
+// productpara11.classList.add("prodpara");
+//
+// const productimgdiv12 = document.createElement("div");
+// productimgdiv12.classList.add("prodimgdiv");
+// const productpara12 = document.createElement("p");
+// productpara12.innerText = "€1000";
+// productpara12.classList.add("prodpara");
+//
+// const productimgdiv13 = document.createElement("div");
+// productimgdiv13.classList.add("prodimgdiv");
+// const productpara13 = document.createElement("p");
+// productpara13.innerText = "€1000";
+// productpara13.classList.add("prodpara");
+//
+// const productimgdiv14 = document.createElement("div");
+// productimgdiv14.classList.add("prodimgdiv");
+// const productpara14 = document.createElement("p");
+// productpara14.innerText = "€1000";
+// productpara14.classList.add("prodpara");
+//
+// const productimgdiv15 = document.createElement("div");
+// productimgdiv15.classList.add("prodimgdiv");
+// const productpara15 = document.createElement("p");
+// productpara15.innerText = "€1000";
+// productpara15.classList.add("prodpara");
+//
+// const productimgdiv16 = document.createElement("div");
+// productimgdiv16.classList.add("prodimgdiv");
+// const productpara16 = document.createElement("p");
+// productpara16.innerText = "€1000";
+// productpara16.classList.add("prodpara");
+//
+// const productimgdiv17 = document.createElement("div");
+// productimgdiv17.classList.add("prodimgdiv");
+// const productpara17 = document.createElement("p");
+// productpara17.innerText = "€1000";
+// productpara17.classList.add("prodpara");
+//
+// const productimgdiv18 = document.createElement("div");
+// productimgdiv18.classList.add("prodimgdiv");
+// const productpara18 = document.createElement("p");
+// productpara18.innerText = "€1000";
+// productpara18.classList.add("prodpara");
+//
+// const productimgdiv19 = document.createElement("div");
+// productimgdiv19.classList.add("prodimgdiv");
+// const productpara19 = document.createElement("p");
+// productpara19.innerText = "€1000";
+// productpara19.classList.add("prodpara");
+//
+// const productimgdiv20 = document.createElement("div");
+// productimgdiv20.classList.add("prodimgdiv");
+// const productpara20 = document.createElement("p");
+// productpara20.innerText = "€1000";
+// productpara20.classList.add("prodpara");
+//
+// const productimgdiv21 = document.createElement("div");
+// productimgdiv21.classList.add("prodimgdiv");
+// const productpara21 = document.createElement("p");
+// productpara21.innerText = "€1000";
+// productpara21.classList.add("prodpara");
+//
+// const productimgdiv22 = document.createElement("div");
+// productimgdiv22.classList.add("prodimgdiv");
+// const productpara22 = document.createElement("p");
+// productpara22.innerText = "€1000";
+// productpara22.classList.add("prodpara");
+//
+// const productimgdiv23 = document.createElement("div");
+// productimgdiv23.classList.add("prodimgdiv");
+// const productpara23 = document.createElement("p");
+// productpara23.innerText = "€1000";
+// productpara23.classList.add("prodpara");
+//
+// const productimgdiv24 = document.createElement("div");
+// productimgdiv24.classList.add("prodimgdiv");
+// const productpara24 = document.createElement("p");
+// productpara24.innerText = "€1000";
+// productpara24.classList.add("prodpara");
+//
+// const productimgdiv25 = document.createElement("div");
+// productimgdiv25.classList.add("prodimgdiv");
+// const productpara25 = document.createElement("p");
+// productpara25.innerText = "€1000";
+// productpara25.classList.add("prodpara");
+//
+// const productimgdiv26 = document.createElement("div");
+// productimgdiv26.classList.add("prodimgdiv");
+// const productpara26 = document.createElement("p");
+// productpara26.innerText = "€1000";
+// productpara26.classList.add("prodpara");
+//
+// const productimgdiv27 = document.createElement("div");
+// productimgdiv27.classList.add("prodimgdiv");
+// const productpara27 = document.createElement("p");
+// productpara27.innerText = "€1000";
+// productpara27.classList.add("prodpara");
+//
+// const productimgdiv28 = document.createElement("div");
+// productimgdiv28.classList.add("prodimgdiv");
+// const productpara28 = document.createElement("p");
+// productpara28.innerText = "€1000";
+// productpara28.classList.add("prodpara");
+//
+// const productimgdiv29 = document.createElement("div");
+// productimgdiv29.classList.add("prodimgdiv");
+// const productpara29 = document.createElement("p");
+// productpara29.innerText = "€1000";
+// productpara29.classList.add("prodpara");
+//
+// const productimgdiv30 = document.createElement("div");
+// productimgdiv30.classList.add("prodimgdiv");
+// const productpara30 = document.createElement("p");
+// productpara30.innerText = "€1000";
+// productpara30.classList.add("prodpara");
+//
+// const productimgdiv31 = document.createElement("div");
+// productimgdiv31.classList.add("prodimgdiv");
+// const productpara31 = document.createElement("p");
+// productpara31.innerText = "€1000";
+// productpara31.classList.add("prodpara");
+//
+// const productimgdiv32 = document.createElement("div");
+// productimgdiv32.classList.add("prodimgdiv");
+// const productpara32 = document.createElement("p");
+// productpara32.innerText = "€1000";
+// productpara32.classList.add("prodpara");
+//
+// const productimgdiv33 = document.createElement("div");
+// productimgdiv33.classList.add("prodimgdiv");
+// const productpara33 = document.createElement("p");
+// productpara33.innerText = "€1000";
+// productpara33.classList.add("prodpara");
+//
+// const productimgdiv34 = document.createElement("div");
+// productimgdiv34.classList.add("prodimgdiv");
+// const productpara34 = document.createElement("p");
+// productpara34.innerText = "€1000";
+// productpara34.classList.add("prodpara");
+//
+// const productimgdiv35 = document.createElement("div");
+// productimgdiv35.classList.add("prodimgdiv");
+// const productpara35 = document.createElement("p");
+// productpara35.innerText = "€1000";
+// productpara35.classList.add("prodpara");
+//
+//
+// const productimgdiv36 = document.createElement("div");
+// productimgdiv36.classList.add("prodimgdiv");
+// const productpara36 = document.createElement("p");
+// productpara36.innerText = "€1000";
+// productpara36.classList.add("prodpara");
+//
+// const productimgdiv37 = document.createElement("div");
+// productimgdiv37.classList.add("prodimgdiv");
+// const productpara37 = document.createElement("p");
+// productpara37.innerText = "€1000";
+// productpara37.classList.add("prodpara");
+//
+//
+// const productimgdiv38 = document.createElement("div");
+// productimgdiv38.classList.add("prodimgdiv");
+// const productpara38 = document.createElement("p");
+// productpara38.innerText = "€1000";
+// productpara38.classList.add("prodpara");
+//
+// const productimgdiv39 = document.createElement("div");
+// productimgdiv39.classList.add("prodimgdiv");
+// const productpara39 = document.createElement("p");
+// productpara39.innerText = "€1000";
+// productpara39.classList.add("prodpara");
+//
+// const productimgdiv40 = document.createElement("div");
+// productimgdiv40.classList.add("prodimgdiv");
+// const productpara40 = document.createElement("p");
+// productpara40.innerText = "€1000";
+// productpara40.classList.add("prodpara");
+//
+// const productimgdiv41 = document.createElement("div");
+// productimgdiv41.classList.add("prodimgdiv");
+// const productpara41 = document.createElement("p");
+// productpara41.innerText = "€1000";
+// productpara41.classList.add("prodpara");
+//
+// const productimgdiv42 = document.createElement("div");
+// productimgdiv42.classList.add("prodimgdiv");
+// const productpara42 = document.createElement("p");
+// productpara42.innerText = "€1000";
+// productpara42.classList.add("prodpara");
+//
+// const productimgdiv43 = document.createElement("div");
+// productimgdiv43.classList.add("prodimgdiv");
+// const productpara43 = document.createElement("p");
+// productpara43.innerText = "€1000";
+// productpara43.classList.add("prodpara");
+//
+// const productimgdiv44 = document.createElement("div");
+// productimgdiv44.classList.add("prodimgdiv");
+// const productpara44 = document.createElement("p");
+// productpara44.innerText = "€1000";
+// productpara44.classList.add("prodpara");
+//
+// const productimgdiv45 = document.createElement("div");
+// productimgdiv45.classList.add("prodimgdiv");
+// const productpara45 = document.createElement("p");
+// productpara45.innerText = "€1000";
+// productpara45.classList.add("prodpara");
+//
+// const productimgdiv46 = document.createElement("div");
+// productimgdiv46.classList.add("prodimgdiv");
+// const productpara46 = document.createElement("p");
+// productpara46.innerText = "€1000";
+// productpara46.classList.add("prodpara");
+//
+// const productimgdiv47 = document.createElement("div");
+// productimgdiv47.classList.add("prodimgdiv");
+// const productpara47 = document.createElement("p");
+// productpara47.innerText = "€1000";
+// productpara47.classList.add("prodpara");
+//
+// const productimgdiv48 = document.createElement("div");
+// productimgdiv48.classList.add("prodimgdiv");
+// const productpara48 = document.createElement("p");
+// productpara48.innerText = "€1000";
+// productpara48.classList.add("prodpara");
+//
+// const productimgdiv49 = document.createElement("div");
+// productimgdiv49.classList.add("prodimgdiv");
+// const productpara49 = document.createElement("p");
+// productpara49.innerText = "€1000";
+// productpara49.classList.add("prodpara");
+//
+// const productimgdiv50 = document.createElement("div");
+// productimgdiv50.classList.add("prodimgdiv");
+// const productpara50 = document.createElement("p");
+// productpara50.innerText = "€1000";
+// productpara50.classList.add("prodpara");
 
-const productimgdiv2 = document.createElement("div");
-productimgdiv2.classList.add("prodimgdiv");
-const productpara2 = document.createElement("p");
-productpara2.innerText = "€1000";
-productpara2.classList.add("prodpara");
-
-const productimgdiv3 = document.createElement("div");
-productimgdiv3.classList.add("prodimgdiv");
-const productpara3 = document.createElement("p");
-productpara3.innerText = "€1000";
-productpara3.classList.add("prodpara");
-
-const productimgdiv4 = document.createElement("div");
-productimgdiv4.classList.add("prodimgdiv");
-const productpara4 = document.createElement("p");
-productpara4.innerText = "€1000";
-productpara4.classList.add("prodpara");
-
-const productimgdiv5 = document.createElement("div");
-productimgdiv5.classList.add("prodimgdiv");
-const productpara5 = document.createElement("p");
-productpara5.innerText = "€1000";
-productpara5.classList.add("prodpara");
-
-const productimgdiv6 = document.createElement("div");
-productimgdiv6.classList.add("prodimgdiv");
-const productpara6 = document.createElement("p");
-productpara6.innerText = "€1000";
-productpara6.classList.add("prodpara");
-
-const productimgdiv7 = document.createElement("div");
-productimgdiv7.classList.add("prodimgdiv");
-const productpara7 = document.createElement("p");
-productpara7.innerText = "€1000";
-productpara7.classList.add("prodpara");
-
-const productimgdiv8 = document.createElement("div");
-productimgdiv8.classList.add("prodimgdiv");
-const productpara8 = document.createElement("p");
-productpara8.innerText = "€1000";
-productpara8.classList.add("prodpara");
-
-const productimgdiv9 = document.createElement("div");
-productimgdiv9.classList.add("prodimgdiv");
-const productpara9 = document.createElement("p");
-productpara9.innerText = "€1000";
-productpara9.classList.add("prodpara");
-
-const productimgdiv10 = document.createElement("div");
-productimgdiv10.classList.add("prodimgdiv");
-const productpara10 = document.createElement("p");
-productpara10.innerText = "€1000";
-productpara10.classList.add("prodpara");
-
-const productimgdiv11 = document.createElement("div");
-productimgdiv11.classList.add("prodimgdiv");
-const productpara11 = document.createElement("p");
-productpara11.innerText = "€1000";
-productpara11.classList.add("prodpara");
-
-const productimgdiv12 = document.createElement("div");
-productimgdiv12.classList.add("prodimgdiv");
-const productpara12 = document.createElement("p");
-productpara12.innerText = "€1000";
-productpara12.classList.add("prodpara");
-
-const productimgdiv13 = document.createElement("div");
-productimgdiv13.classList.add("prodimgdiv");
-const productpara13 = document.createElement("p");
-productpara13.innerText = "€1000";
-productpara13.classList.add("prodpara");
-
-const productimgdiv14 = document.createElement("div");
-productimgdiv14.classList.add("prodimgdiv");
-const productpara14 = document.createElement("p");
-productpara14.innerText = "€1000";
-productpara14.classList.add("prodpara");
-
-const productimgdiv15 = document.createElement("div");
-productimgdiv15.classList.add("prodimgdiv");
-const productpara15 = document.createElement("p");
-productpara15.innerText = "€1000";
-productpara15.classList.add("prodpara");
-
-const productimgdiv16 = document.createElement("div");
-productimgdiv16.classList.add("prodimgdiv");
-const productpara16 = document.createElement("p");
-productpara16.innerText = "€1000";
-productpara16.classList.add("prodpara");
-
-const productimgdiv17 = document.createElement("div");
-productimgdiv17.classList.add("prodimgdiv");
-const productpara17 = document.createElement("p");
-productpara17.innerText = "€1000";
-productpara17.classList.add("prodpara");
-
-const productimgdiv18 = document.createElement("div");
-productimgdiv18.classList.add("prodimgdiv");
-const productpara18 = document.createElement("p");
-productpara18.innerText = "€1000";
-productpara18.classList.add("prodpara");
-
-const productimgdiv19 = document.createElement("div");
-productimgdiv19.classList.add("prodimgdiv");
-const productpara19 = document.createElement("p");
-productpara19.innerText = "€1000";
-productpara19.classList.add("prodpara");
-
-const productimgdiv20 = document.createElement("div");
-productimgdiv20.classList.add("prodimgdiv");
-const productpara20 = document.createElement("p");
-productpara20.innerText = "€1000";
-productpara20.classList.add("prodpara");
-
-const productimgdiv21 = document.createElement("div");
-productimgdiv21.classList.add("prodimgdiv");
-const productpara21 = document.createElement("p");
-productpara21.innerText = "€1000";
-productpara21.classList.add("prodpara");
-
-const productimgdiv22 = document.createElement("div");
-productimgdiv22.classList.add("prodimgdiv");
-const productpara22 = document.createElement("p");
-productpara22.innerText = "€1000";
-productpara22.classList.add("prodpara");
-
-const productimgdiv23 = document.createElement("div");
-productimgdiv23.classList.add("prodimgdiv");
-const productpara23 = document.createElement("p");
-productpara23.innerText = "€1000";
-productpara23.classList.add("prodpara");
-
-const productimgdiv24 = document.createElement("div");
-productimgdiv24.classList.add("prodimgdiv");
-const productpara24 = document.createElement("p");
-productpara24.innerText = "€1000";
-productpara24.classList.add("prodpara");
-
-const productimgdiv25 = document.createElement("div");
-productimgdiv25.classList.add("prodimgdiv");
-const productpara25 = document.createElement("p");
-productpara25.innerText = "€1000";
-productpara25.classList.add("prodpara");
-
-const productimgdiv26 = document.createElement("div");
-productimgdiv26.classList.add("prodimgdiv");
-const productpara26 = document.createElement("p");
-productpara26.innerText = "€1000";
-productpara26.classList.add("prodpara");
-
-const productimgdiv27 = document.createElement("div");
-productimgdiv27.classList.add("prodimgdiv");
-const productpara27 = document.createElement("p");
-productpara27.innerText = "€1000";
-productpara27.classList.add("prodpara");
-
-const productimgdiv28 = document.createElement("div");
-productimgdiv28.classList.add("prodimgdiv");
-const productpara28 = document.createElement("p");
-productpara28.innerText = "€1000";
-productpara28.classList.add("prodpara");
-
-const productimgdiv29 = document.createElement("div");
-productimgdiv29.classList.add("prodimgdiv");
-const productpara29 = document.createElement("p");
-productpara29.innerText = "€1000";
-productpara29.classList.add("prodpara");
-
-const productimgdiv30 = document.createElement("div");
-productimgdiv30.classList.add("prodimgdiv");
-const productpara30 = document.createElement("p");
-productpara30.innerText = "€1000";
-productpara30.classList.add("prodpara");
-
-const productimgdiv31 = document.createElement("div");
-productimgdiv31.classList.add("prodimgdiv");
-const productpara31 = document.createElement("p");
-productpara31.innerText = "€1000";
-productpara31.classList.add("prodpara");
-
-const productimgdiv32 = document.createElement("div");
-productimgdiv32.classList.add("prodimgdiv");
-const productpara32 = document.createElement("p");
-productpara32.innerText = "€1000";
-productpara32.classList.add("prodpara");
-
-const productimgdiv33 = document.createElement("div");
-productimgdiv33.classList.add("prodimgdiv");
-const productpara33 = document.createElement("p");
-productpara33.innerText = "€1000";
-productpara33.classList.add("prodpara");
-
-const productimgdiv34 = document.createElement("div");
-productimgdiv34.classList.add("prodimgdiv");
-const productpara34 = document.createElement("p");
-productpara34.innerText = "€1000";
-productpara34.classList.add("prodpara");
-
-const productimgdiv35 = document.createElement("div");
-productimgdiv35.classList.add("prodimgdiv");
-const productpara35 = document.createElement("p");
-productpara35.innerText = "€1000";
-productpara35.classList.add("prodpara");
-
-
-const productimgdiv36 = document.createElement("div");
-productimgdiv36.classList.add("prodimgdiv");
-const productpara36 = document.createElement("p");
-productpara36.innerText = "€1000";
-productpara36.classList.add("prodpara");
-
-const productimgdiv37 = document.createElement("div");
-productimgdiv37.classList.add("prodimgdiv");
-const productpara37 = document.createElement("p");
-productpara37.innerText = "€1000";
-productpara37.classList.add("prodpara");
-
-
-const productimgdiv38 = document.createElement("div");
-productimgdiv38.classList.add("prodimgdiv");
-const productpara38 = document.createElement("p");
-productpara38.innerText = "€1000";
-productpara38.classList.add("prodpara");
-
-const productimgdiv39 = document.createElement("div");
-productimgdiv39.classList.add("prodimgdiv");
-const productpara39 = document.createElement("p");
-productpara39.innerText = "€1000";
-productpara39.classList.add("prodpara");
-
-const productimgdiv40 = document.createElement("div");
-productimgdiv40.classList.add("prodimgdiv");
-const productpara40 = document.createElement("p");
-productpara40.innerText = "€1000";
-productpara40.classList.add("prodpara");
-
-const productimgdiv41 = document.createElement("div");
-productimgdiv41.classList.add("prodimgdiv");
-const productpara41 = document.createElement("p");
-productpara41.innerText = "€1000";
-productpara41.classList.add("prodpara");
-
-const productimgdiv42 = document.createElement("div");
-productimgdiv42.classList.add("prodimgdiv");
-const productpara42 = document.createElement("p");
-productpara42.innerText = "€1000";
-productpara42.classList.add("prodpara");
-
-const productimgdiv43 = document.createElement("div");
-productimgdiv43.classList.add("prodimgdiv");
-const productpara43 = document.createElement("p");
-productpara43.innerText = "€1000";
-productpara43.classList.add("prodpara");
-
-const productimgdiv44 = document.createElement("div");
-productimgdiv44.classList.add("prodimgdiv");
-const productpara44 = document.createElement("p");
-productpara44.innerText = "€1000";
-productpara44.classList.add("prodpara");
-
-const productimgdiv45 = document.createElement("div");
-productimgdiv45.classList.add("prodimgdiv");
-const productpara45 = document.createElement("p");
-productpara45.innerText = "€1000";
-productpara45.classList.add("prodpara");
-
-const productimgdiv46 = document.createElement("div");
-productimgdiv46.classList.add("prodimgdiv");
-const productpara46 = document.createElement("p");
-productpara46.innerText = "€1000";
-productpara46.classList.add("prodpara");
-
-const productimgdiv47 = document.createElement("div");
-productimgdiv47.classList.add("prodimgdiv");
-const productpara47 = document.createElement("p");
-productpara47.innerText = "€1000";
-productpara47.classList.add("prodpara");
-
-const productimgdiv48 = document.createElement("div");
-productimgdiv48.classList.add("prodimgdiv");
-const productpara48 = document.createElement("p");
-productpara48.innerText = "€1000";
-productpara48.classList.add("prodpara");
-
-const productimgdiv49 = document.createElement("div");
-productimgdiv49.classList.add("prodimgdiv");
-const productpara49 = document.createElement("p");
-productpara49.innerText = "€1000";
-productpara49.classList.add("prodpara");
-
-const productimgdiv50 = document.createElement("div");
-productimgdiv50.classList.add("prodimgdiv");
-const productpara50 = document.createElement("p");
-productpara50.innerText = "€1000";
-productpara50.classList.add("prodpara");
 
 
 
@@ -902,7 +903,41 @@ productimg48.src = "./Thumbs/prod_thumb48.jpg";
 productimg48.setAttribute("alt", "Beautiful Ceramic");
 productimg48.setAttribute("data-large", "./Vazak/471080312_8748524801869970_2435954816396736004_n.jpg");
 
+// const imageSources = ["./Thumbs/prod_thumb1.jpg", "./Thumbs/prod_thumb2.jpg", "./Thumbs/prod_thumb3.jpg", "./Thumbs/prod_thumb4.jpg", "./Thumbs/prod_thumb5.jpg"];
 
+const imageSources = {
+      product1: "./Thumbs/prod_thumb1.jpg",
+      product2: "./Thumbs/prod_thumb2.jpg",
+      product3: "./Thumbs/prod_thumb3.jpg",
+      product4: "./Thumbs/prod_thumb4.jpg",
+      product5: "./Thumbs/prod_thumb5.jpg",
+};
+
+const createProductElement = (price, imgSrc) => {
+    const productDiv = document.createElement("div");
+    productDiv.classList.add("prodimgdiv");
+
+    const prodImg = document.createElement("img");
+    prodImg.src = imgSrc;
+    prodImg.classList.add("prodimg");
+    productDiv.appendChild(prodImg);
+
+    const productPara = document.createElement("p");
+    productPara.innerText = price;
+    productPara.classList.add("prodpara");
+
+    productDiv.appendChild(productPara);
+    return productDiv;
+};
+
+const cash = "€1000";
+
+Object.entries(imageSources).forEach(([key, img]) => {
+    const productElem = createProductElement(cash, img);
+    productdiv.appendChild(productElem);
+});
+
+/*
 
 light(productimg1);
 light(productimg2);
@@ -952,7 +987,7 @@ light(productimg45);
 light(productimg46);
 light(productimg47);
 light(productimg48);
-
+*/
 
 
 const homeheadprod = document.querySelector("#homehead");
@@ -987,7 +1022,7 @@ home_anim.forEach((item, index) => {
 
 
 
-
+/*
 productimgdiv1.appendChild(productimg1);
 productimgdiv1.appendChild(productpara1);
 productimgdiv2.appendChild(productimg2);
@@ -1132,6 +1167,7 @@ productdiv.appendChild(productimgdiv45);
 productdiv.appendChild(productimgdiv46);
 productdiv.appendChild(productimgdiv47);
 productdiv.appendChild(productimgdiv48);
+*/
 
 
 
